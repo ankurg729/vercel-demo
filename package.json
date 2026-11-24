@@ -1,0 +1,14 @@
+{
+  "name": "vercel-node-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express app deployed to Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
